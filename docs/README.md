@@ -1,5 +1,5 @@
 ---
-description: Page description 4
+description: Page description 5
 ---
 
 # Page
@@ -31,4 +31,3 @@ description: Page description 4
 {% swagger src=".gitbook/assets/petstore-v3.1.json" path="/pets/{petId}" method="get" %}
 [petstore-v3.1.json](.gitbook/assets/petstore-v3.1.json)
 {% endswagger %}
-
