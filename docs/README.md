@@ -1,8 +1,10 @@
 ---
-description: Page description 6
+description: Page description 7
 ---
 
 # Page
+
+
 
 {% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/job/{id}" method="get" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
