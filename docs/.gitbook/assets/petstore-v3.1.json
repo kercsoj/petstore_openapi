@@ -89,7 +89,7 @@
     },
     "/pets/{petId}": {
       "get": {
-        "summary": "Info for a specific pet (cat or dog)",
+        "summary": "Info for a specific pet (cat or dog or a spider)",
         "operationId": "showPetById",
         "tags": [
           "pets"
