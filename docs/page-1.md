@@ -5,7 +5,9 @@
     <tbody>
         <tr>
             <td>
-                <h4>Get started</h4>
+                <div align="center">
+                    <h4>Get started</h4>
+                </div>
             </td>
             <td>
                 <ul>
