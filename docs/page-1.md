@@ -5,7 +5,7 @@
     <tbody>
         <tr>
             <td>
-                <img src=".gitbook/assets/rest.svg" alt=""><h4>Get started</h4>
+                <h4>Get started</h4>
             </td>
             <td>
                 <ul>
