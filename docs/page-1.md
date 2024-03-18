@@ -1,3 +1,155 @@
 # Page 1
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><h4><img src=".gitbook/assets/rest.svg" alt="">Get started</h4></td><td><ul><li><a href="https://docs.github.com/en/get-started">Get started</a></li><li><a href="https://docs.github.com/en/migrations">Migrations</a></li><li><a href="https://docs.github.com/en/account-and-profile">Account and profile</a></li><li><a href="https://docs.github.com/en/authentication">Authentication</a></li><li><a href="https://docs.github.com/en/billing">Billing and payments</a></li><li><a href="https://docs.github.com/en/site-policy">Site policy</a></li></ul></td><td></td></tr><tr><td><h4>Collaborative coding</h4></td><td><ul><li><a href="https://docs.github.com/en/codespaces">Codespaces</a></li><li><a href="https://docs.github.com/en/repositories">Repositories</a></li><li><a href="https://docs.github.com/en/pull-requests">Pull requests</a></li><li><a href="https://docs.github.com/en/discussions">GitHub Discussions</a></li><li><a href="https://docs.github.com/en/copilot">GitHub Copilot</a></li></ul></td><td></td></tr><tr><td><h4>CI/CD and DevOps</h4></td><td><ul><li><a href="https://docs.github.com/en/actions">GitHub Actions</a></li><li><a href="https://docs.github.com/en/packages">GitHub Packages</a></li><li><a href="https://docs.github.com/en/pages">GitHub Pages</a></li></ul></td><td></td></tr><tr><td><h4>Security</h4></td><td><ul><li><a href="https://docs.github.com/en/code-security">Code security</a></li><li><a href="https://docs.github.com/en/code-security/supply-chain-security">Supply chain security</a></li><li><a href="https://docs.github.com/en/code-security/security-advisories">Security advisories</a></li><li><a href="https://docs.github.com/en/code-security/dependabot">Dependabot</a></li><li><a href="https://docs.github.com/en/code-security/code-scanning">Code scanning</a></li><li><a href="https://docs.github.com/en/code-security/secret-scanning">Secret scanning</a></li></ul></td><td></td></tr><tr><td><h4>Client apps</h4></td><td><ul><li><a href="https://docs.github.com/en/github-cli">GitHub CLI</a></li><li><a href="https://docs.github.com/en/desktop">GitHub Desktop</a></li></ul></td><td></td></tr><tr><td><h4>Project management</h4></td><td><ul><li><a href="https://docs.github.com/en/issues">GitHub Issues</a></li><li><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects">Projects</a></li><li><a href="https://docs.github.com/en/issues/managing-your-tasks-with-tasklists">Tasklists</a></li><li><a href="https://docs.github.com/en/search-github">Search on GitHub</a></li></ul></td><td></td></tr><tr><td><h4>Developers</h4></td><td><ul><li><a href="https://docs.github.com/en/apps">Apps</a></li><li><a href="https://docs.github.com/en/rest">REST API</a></li><li><a href="https://docs.github.com/en/graphql">GraphQL API</a></li><li><a href="https://docs.github.com/en/webhooks">Webhooks</a></li></ul></td><td></td></tr><tr><td><h4>Enterprise and Teams</h4></td><td><ul><li><a href="https://docs.github.com/en/organizations">Organizations</a></li><li><a href="https://docs.github.com/en/enterprise-cloud@latest/admin">Enterprise administrators</a></li></ul></td><td></td></tr><tr><td><h4>Community</h4></td><td><ul><li><a href="https://docs.github.com/en/communities">Building communities</a></li><li><a href="https://docs.github.com/en/sponsors">GitHub Sponsors</a></li><li><a href="https://docs.github.com/en/education">GitHub Education</a></li><li><a href="https://docs.github.com/en/support">GitHub Support</a></li><li><a href="https://docs.github.com/en/contributing">Contribute to GitHub Docs</a></li></ul></td><td></td></tr><tr><td><h4>More docs</h4></td><td><ul><li><a href="https://electronjs.org/docs/latest">Electron</a></li><li><a href="https://codeql.github.com/docs">CodeQL</a></li><li><a href="https://docs.npmjs.com/">npm</a></li></ul></td><td></td></tr></tbody></table>
+
+<table data-view="cards">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src=".gitbook/assets/rest.svg" alt=""><h4>Get started</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/get-started">Get started</a></li>
+                    <li><a href="https://docs.github.com/en/migrations">Migrations</a></li>
+                    <li><a href="https://docs.github.com/en/account-and-profile">Account and profile</a></li>
+                    <li><a href="https://docs.github.com/en/authentication">Authentication</a></li>
+                    <li><a href="https://docs.github.com/en/billing">Billing and payments</a></li>
+                    <li><a href="https://docs.github.com/en/site-policy">Site policy</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Collaborative coding</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/codespaces">Codespaces</a></li>
+                    <li><a href="https://docs.github.com/en/repositories">Repositories</a></li>
+                    <li><a href="https://docs.github.com/en/pull-requests">Pull requests</a></li>
+                    <li><a href="https://docs.github.com/en/discussions">GitHub Discussions</a></li>
+                    <li><a href="https://docs.github.com/en/copilot">GitHub Copilot</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>CI/CD and DevOps</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/actions">GitHub Actions</a></li>
+                    <li><a href="https://docs.github.com/en/packages">GitHub Packages</a></li>
+                    <li><a href="https://docs.github.com/en/pages">GitHub Pages</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Security</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/code-security">Code security</a></li>
+                    <li><a href="https://docs.github.com/en/code-security/supply-chain-security">Supply chain security</a></li>
+                    <li><a href="https://docs.github.com/en/code-security/security-advisories">Security advisories</a></li>
+                    <li><a href="https://docs.github.com/en/code-security/dependabot">Dependabot</a></li>
+                    <li><a href="https://docs.github.com/en/code-security/code-scanning">Code scanning</a></li>
+                    <li><a href="https://docs.github.com/en/code-security/secret-scanning">Secret scanning</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Client apps</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/github-cli">GitHub CLI</a></li>
+                    <li><a href="https://docs.github.com/en/desktop">GitHub Desktop</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Project management</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/issues">GitHub Issues</a></li>
+                    <li><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects">Projects</a></li>
+                    <li><a href="https://docs.github.com/en/issues/managing-your-tasks-with-tasklists">Tasklists</a></li>
+                    <li><a href="https://docs.github.com/en/search-github">Search on GitHub</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Developers</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/apps">Apps</a></li>
+                    <li><a href="https://docs.github.com/en/rest">REST API</a></li>
+                    <li><a href="https://docs.github.com/en/graphql">GraphQL API</a></li>
+                    <li><a href="https://docs.github.com/en/webhooks">Webhooks</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Enterprise and Teams</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/organizations">Organizations</a></li>
+                    <li><a href="https://docs.github.com/en/enterprise-cloud@latest/admin">Enterprise administrators</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Community</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.github.com/en/communities">Building communities</a></li>
+                    <li><a href="https://docs.github.com/en/sponsors">GitHub Sponsors</a></li>
+                    <li><a href="https://docs.github.com/en/education">GitHub Education</a></li>
+                    <li><a href="https://docs.github.com/en/support">GitHub Support</a></li>
+                    <li><a href="https://docs.github.com/en/contributing">Contribute to GitHub Docs</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>More docs</h4>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://electronjs.org/docs/latest">Electron</a></li>
+                    <li><a href="https://codeql.github.com/docs">CodeQL</a></li>
+                    <li><a href="https://docs.npmjs.com/">npm</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
