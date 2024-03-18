@@ -11,7 +11,7 @@
     </thead>
     <tbody>
         <tr>
-            <td align="center"><mark style="color:green;font-size:24px;">Get started</mark></td>
+            <td align="center"><mark style="color:blue;font-size:48px;">Get started</mark></td>
             <td>
                 <ul>
                     <li><a href="https://docs.github.com/en/get-started">Get started</a></li>
