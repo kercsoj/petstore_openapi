@@ -14,6 +14,20 @@
                 <h3>Get started</h3>
             </td>
             <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                            <th>Column 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>data 1</td>
+                            <td>data 2</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <ul>
                     <li><a href="https://docs.github.com/en/get-started">Get started</a></li>
                     <li><a href="https://docs.github.com/en/migrations">Migrations</a></li>
