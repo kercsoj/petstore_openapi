@@ -8,4 +8,6 @@ Start
 
 {% file src=".gitbook/assets/rest.svg" %}
 
+{% file src=".gitbook/assets/rest.svg" %}
+
 End
