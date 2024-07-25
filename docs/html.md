@@ -6,8 +6,6 @@
 
 Start
 
-{% file src=".gitbook/assets/openapi_dap_clean.json" %}
-
-{% file src="test.html" %}
+{% file src=".gitbook/assets/rest.svg" %}
 
 End
