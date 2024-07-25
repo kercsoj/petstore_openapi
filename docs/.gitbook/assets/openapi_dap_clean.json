@@ -6,6 +6,14 @@
     },
     "servers": [
         {
+            "url": "https://api.example.com/v1",
+            "description": "Production server (v1)"
+        },
+        {
+            "url": "https://staging-api.example.com/v1",
+            "description": "Staging server (v1)"
+        },
+        {
             "url": "https://api-gateway.instructure.com/dap"
         }
     ],
