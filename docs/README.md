@@ -4,6 +4,45 @@ description: Page description 7
 
 # Page
 
+# Heading 1
+
+Heading 1.1
+===========
+
+## Heading 2
+
+Heading 2
+---------
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+---
+
+**Bold text**
+
+*Italic text*
+
+***Bold and italic text***
+
+~~Strikethrough text~~
+
+> Blockquote
+
+`Inline code`
+
+```python
+# Code block with syntax highlighting
+def hello_world():
+    print("Hello, World!")
+
+
+
 A new sentence. This is a second one.
 
 {% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/job/{id}" method="get" %}
