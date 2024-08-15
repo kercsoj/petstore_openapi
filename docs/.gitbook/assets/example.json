@@ -3,7 +3,7 @@ info:
   title: Custom Data API
   version: 1.0.0
 paths:
-  /users/{user_id}/custom_data/{namespace}/{scope}:
+  /api/v1/users/{user_id}/custom_data/{namespace}/{scope}:
     get:
       summary: Load custom user data
       description: |
