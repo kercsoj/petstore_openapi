@@ -6,3 +6,4 @@
 * [HTML](html.md)
 * [Page 3](page-3.md)
 * [Page 4](page-4.md)
+* [Canvas OpenAPI Example](canvas-openapi-example.md)
