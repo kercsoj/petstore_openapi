@@ -66,7 +66,7 @@ curl https://<canvas>/api/v1/account_calendars \
 
 Returns a list of [AccountCalendar](about:blank/account\_calendars.html#AccountCalendar) objects
 
-### [Get a single account calendar ](broken-reference)
+### [Get a single account calendar](#get-a-single-account-calendar) <a name="get-a-single-account-calendar"></a>
 
 [AccountCalendarsApiController#show](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
@@ -87,7 +87,7 @@ curl https://<canvas>/api/v1/account_calendars/204 \
 
 Returns an [AccountCalendar](about:blank/account\_calendars.html#AccountCalendar) object
 
-### [Update a calendar ](broken-reference)
+### [Update a calendar](#update-a-calendar) <a name="update-a-calendar"></a>
 
 [AccountCalendarsApiController#update](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
@@ -118,7 +118,7 @@ curl https://<canvas>/api/v1/account_calendars/204 \
 
 Returns an [AccountCalendar](about:blank/account\_calendars.html#AccountCalendar) object
 
-### [Update several calendars ](broken-reference)
+### [Update several calendars](#update-several-calendars) <a name="update-several-calendars"></a>
 
 [AccountCalendarsApiController#bulk\_update](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
@@ -143,7 +143,7 @@ curl https://<canvas>/api/v1/accounts/1/account_calendars \
   --data '[{"id": 1, "visible": true, "auto_subscribe": false}, {"id": 13, "visible": false, "auto_subscribe": true}]'
 ```
 
-### [List all account calendars ](broken-reference)
+### [List all account calendars](#list-all-account-calendars) <a name="list-all-account-calendars"></a>
 
 [AccountCalendarsApiController#all\_calendars](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
@@ -171,7 +171,7 @@ curl https://<canvas>/api/v1/accounts/1/account_calendars \
 
 Returns a list of [AccountCalendar](about:blank/account\_calendars.html#AccountCalendar) objects
 
-### [Count of all visible account calendars ](broken-reference)
+### [Count of all visible account calendars](#count-of-all-visible-account-calendars) <a name="count-of-all-visible-account-calendars"></a>
 
 [AccountCalendarsApiController#visible\_calendars\_count](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
