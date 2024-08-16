@@ -37,7 +37,9 @@ An account calendar is available for each account in Canvas. All account calenda
 }
 ```
 
-### [List available account calendars ](broken-reference)
+### [List available account calendars](#list-available-account-calendars) <a name="list-available-account-calendars"></a>
+
+
 
 [AccountCalendarsApiController#index](https://github.com/instructure/canvas-lms/blob/master/app/controllers/account\_calendars\_api\_controller.rb)
 
