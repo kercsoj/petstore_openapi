@@ -81,7 +81,7 @@ calendars will appear on users&#39; calendars even if they do not manually add i
 
 
   
-### GET /api/v1/account_calendars  
+#### GET /api/v1/account_calendars  
 **Scope:** `url:GET|/api/v1/account_calendars`
 
 
@@ -147,7 +147,7 @@ Returns a list of
 
 
   
-### GET /api/v1/account_calendars/:account_id  
+#### GET /api/v1/account_calendars/:account_id  
 **Scope:** `url:GET|/api/v1/account_calendars/:account_id`
 
 
@@ -204,7 +204,7 @@ Returns an
 
 
   
-### PUT /api/v1/account_calendars/:account_id  
+#### PUT /api/v1/account_calendars/:account_id  
 **Scope:** `url:PUT|/api/v1/account_calendars/:account_id`
 
 
@@ -273,7 +273,7 @@ Returns an
 
 
   
-### PUT /api/v1/accounts/:account_id/account_calendars  
+#### PUT /api/v1/accounts/:account_id/account_calendars  
 **Scope:** `url:PUT|/api/v1/accounts/:account_id/account_calendars`
 
 
@@ -329,7 +329,7 @@ curl https://<canvas>/api/v1/accounts/1/account_calendars \
 
 
   
-### GET /api/v1/accounts/:account_id/account_calendars  
+#### GET /api/v1/accounts/:account_id/account_calendars  
 **Scope:** `url:GET|/api/v1/accounts/:account_id/account_calendars`
 
 
@@ -395,7 +395,7 @@ Returns a list of
 
 
   
-### GET /api/v1/accounts/:account_id/visible_calendars_count  
+#### GET /api/v1/accounts/:account_id/visible_calendars_count  
 **Scope:** `url:GET|/api/v1/accounts/:account_id/visible_calendars_count`
 
 
