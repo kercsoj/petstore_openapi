@@ -24,7 +24,7 @@ calendars will appear on users&#39; calendars even if they do not manually add i
 
 
   
-### <a name="AccountCalendar">An AccountCalendar object looks like:</a>
+#### <a name="AccountCalendar">An AccountCalendar object looks like:</a>
 
 ```js
 {
