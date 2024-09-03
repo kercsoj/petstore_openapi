@@ -101,9 +101,7 @@ calendars will appear on users&#39; calendars even if they do not manually add i
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/account_calendars \
@@ -158,9 +156,7 @@ Returns a list of
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/account_calendars/204 \
@@ -224,9 +220,7 @@ Returns an
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/account_calendars/204 \
@@ -288,9 +282,7 @@ Returns an
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/accounts/1/account_calendars \
@@ -349,9 +341,7 @@ curl https://<canvas>/api/v1/accounts/1/account_calendars \
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/accounts/1/account_calendars \
@@ -406,9 +396,7 @@ Returns a list of
 
 
 #### Example Request:
-
     
-#### <div class='inline'></div>
 
 ```bash
 curl https://<canvas>/api/v1/accounts/1/visible_calendars_count \
