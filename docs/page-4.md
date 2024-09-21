@@ -20,4 +20,4 @@
 [openapi_dap_clean copy.json](<.gitbook/assets/openapi_dap_clean copy.json>)
 {% endswagger %}
 
-{% embed url="https://github.com/instructure/canvas-lms/blob/master/app/controllers/tokens_controller.rb" %}
+[https://github.com/instructure/canvas-lms/blob/master/app/controllers/tokens\_controller.rb](https://github.com/instructure/canvas-lms/blob/master/app/controllers/tokens\_controller.rb)
