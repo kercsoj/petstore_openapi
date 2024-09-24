@@ -8,4 +8,4 @@ Arguments:
 
 - submit_assignment
 
-    A boolean to indicate whether or not to automatically submit the assignment the file is associated with if it is associated with an assignment. Defaults to true.
+  A boolean to indicate whether or not to automatically submit the assignment the file is associated with if it is associated with an assignment. Defaults to true.
