@@ -3,10 +3,12 @@
 Arguments:
 
 name
-: The filename of the file. Any UTF-8 name is allowed. Path components such as `/` and `\` will be treated as part of the filename, not a path to a sub-folder.
+
+  The filename of the file. Any UTF-8 name is allowed. Path components such as `/` and `\` will be treated as part of the filename, not a path to a sub-folder.
 
 size
-: The size of the file, in bytes. This field is recommended, as it will let you find out if there's a quota issue before uploading the raw file.
+
+  The size of the file, in bytes. This field is recommended, as it will let you find out if there's a quota issue before uploading the raw file.
 
 content_type
 : The content type of the file. If not given, it will be guessed based on the file extension.
