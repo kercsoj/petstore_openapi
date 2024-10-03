@@ -1,0 +1,112 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Instructure API Gateway",
+    "description": "## Description\n\nThis is the API of the Instructure API Gateway, a service to provide\nstandardized access points to data & capabilities across Instructure\nproducts. API Gateway provides a single access point URL accessible\nglobally.\n\n## Note on data residency\n\nAPI Gateway does not store any personally identifiable information, while\nprocessing the requests.\n\n## How to call a service? - a step by step guide\n\n### Get your ClientID and Secret\n\n* **If you are an Institution**: make sure that you have generated your\nClientID and Secret for institutional use on the <a target=\"_blank\"\nhref=\"https://identity.instructure.com/login/\">Identity Service</a> page.\n\n* **If you are a Partner of Instructure**: make sure that you have received\nyour ClientID and Secret from your Institution.\n\n**Note**: \n\n* Keep your ClientID and Secret in a safe place! Do not share with anyone\nelse!\n\n### Get the access token\n\nUsing the ClientID and Secret you are ready to request for an `access\ntoken`. The `access token` is a JSON Web Token, that grants access to the\ntargeted Instructure service. This is a short lived token, it needs to be\nrenewed periodically. Typically expires in one hour.\n\nThe following code snippet uses `curl` to send the request and `jq` to\nextract the `access token` from the answer:\n\n```sh\nACCESS_TOKEN=$(curl --request POST https://api-gateway.instructure.com/ids/auth/login \\\n--user \"${CLIENT_ID}:${SECRET}\"  \\\n--data-urlencode 'grant_type=client_credentials' | jq -r '.access_token')\n\necho $ACCESS_TOKEN\n```\n\n### Call a service\n\nOnce you received the `access token` you can call the desired service. The\nexample below will demonstrate this by querying the list of table names that\nexist in Canvas using the [CD2 service](https://data-access-platform-api.s3.amazonaws.com/index.html).\nThe `access token` shall be passed as a bearer token in the Authorization header:\n\n```sh\ncurl --request GET 'https://api-gateway.instructure.com/dap/query/canvas/table' \\\n--header \"Authorization: Bearer ${ACCESS_TOKEN}\" \n```\n\nUpon success the call returns with a list of table names available Canvas.\n\n### Important note\n\nStarting with version 0.7.3 of the API Gateway, the use of `x-instauth` \nheader parameter to pass the `access token` is considered deprecated. Instead use the `Authorization` header \nparameter as shown above. In case both header parameters are filled (`x-instauth` and `Authorization`), \n`Authorization` will take precedence. \n\nDue to compatibility reasons `x-instauth` will be  still supported for a while,\nbut all clients are encouraged to switch to the new header value as soon as possible.\n",
+    "version": "0.7.3"
+  },
+  "servers": [
+    {
+      "url": "https://api-gateway.instructure.com",
+      "description": "The production API Gateway server"
+    }
+  ],
+  "paths": {
+    "/ids/auth/login": {
+      "post": {
+        "summary": "Issue a JSON Web Token",
+        "description": "Issues a JSON Web Token (JWT) to be used in subsequent to API calls. \n\nThe received JWT (see `access_token` property in the Responses section)\nneeds to be passed in the header of every upcoming service call as a \nBearer token. \n\nNote that this is a short lived token, it needs to be renewed\nperiodically. Typically expires in one hour.\n",
+        "operationId": "getJWT",
+        "tags": [
+          "API"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthAnswer"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "403": {
+            "$ref": "#/components/responses/ForbiddenRequest"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ],
+        "x-codeSamples": [
+          {
+            "lang": "Shell",
+            "source": "# CLIENT_ID: Your ClientID. Eg: 'e5cfa033-6966-48c4-b2a2-03731a2cabc4'\n# SECRET: The password associated with your ClientID\n# Request for access token and extract it from the answer\n\nACCESS_TOKEN=$(curl --request POST https://api-gateway.instructure.com/ids/auth/login \\\n--user \"${CLIENT_ID}:${SECRET}\" \\\n--data-urlencode 'grant_type=client_credentials' | jq -r '.access_token')\n\necho $ACCESS_TOKEN\n"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AuthAnswer": {
+        "description": "The answer received as a result of successful authorization.",
+        "type": "object",
+        "properties": {
+          "access_token": {
+            "description": "JSON Web Token, that grants access to the targeted Instructure\nservices. Note that this is a short lived token, it needs to be\nrenewed periodically. Typically expires in one hour.\n",
+            "type": "string",
+            "format": "json"
+          },
+          "expires_in": {
+            "description": "The expiration time of the `access_token` in seconds.",
+            "type": "integer",
+            "example": 3599
+          },
+          "scope": {
+            "description": "Specifies the scope, the institute (principal), the partner and the\nregion for which the `access_token` was issued. These values are\nseparated with a white space in the form of `SERVICE_ID\nprincipal:PRINCIPAL_ID partner:PARTNER_ID region:REGION_ID`.\n",
+            "type": "string",
+            "example": "SERVICE_ID principal:PRINCIPAL_ID partner:PARTNER_ID\nregion:REGION_ID\n"
+          },
+          "token_type": {
+            "description": "The type of the access token.",
+            "type": "string",
+            "example": "bearer"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "basic": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "The request could not be understood due to malformed syntax"
+      },
+      "ForbiddenRequest": {
+        "description": "Request forbidden due to missing/invalid authentication information"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "API"
+    }
+  ],
+  "x-tagGroups": [
+    {
+      "name": "Operations",
+      "tags": [
+        "API"
+      ]
+    }
+  ]
+}

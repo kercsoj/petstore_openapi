@@ -9,3 +9,4 @@
 * [Canvas OpenAPI Example](canvas-openapi-example.md)
 * [Page 5](page-5/README.md)
   * [Account Calendars API](page-5/canvas-lms-rest-api-documentation.md)
+* [IDS Login](ids-login.md)
