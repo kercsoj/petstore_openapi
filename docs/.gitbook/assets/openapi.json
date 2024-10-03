@@ -43,6 +43,7 @@
             "basic": []
           }
         ],
+        "x-hideTryItPanel": false,
         "x-codeSamples": [
           {
             "lang": "Shell",
