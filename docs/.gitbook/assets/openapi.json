@@ -45,8 +45,8 @@
         ],
         "x-codeSamples": [
           {
-            "lang": "Python",
-            "label": "Python",
+            "lang": "Bash",
+            "label": "Bash",
             "source": "# CLIENT_ID: Your ClientID. Eg: 'e5cfa033-6966-48c4-b2a2-03731a2cabc4'\n# SECRET: The password associated with your ClientID\n# Request for access token and extract it from the answer\n\nACCESS_TOKEN=$(curl --request POST https://api-gateway.instructure.com/ids/auth/login \\\n--user \"${CLIENT_ID}:${SECRET}\" \\\n--data-urlencode 'grant_type=client_credentials' | jq -r '.access_token')\n\necho $ACCESS_TOKEN\n"
           }
         ]
