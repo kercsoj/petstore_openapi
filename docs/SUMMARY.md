@@ -15,6 +15,6 @@
 
 * [Page 6](group-1/page-6.md)
 
-### Group 2
+## Group 2
 
 * [Page 7](group-2/page-7.md)

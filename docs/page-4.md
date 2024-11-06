@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Page 4
 
 {% swagger src=".gitbook/assets/openapi_dap_clean copy.json" path="/job/{id}" method="get" %}
