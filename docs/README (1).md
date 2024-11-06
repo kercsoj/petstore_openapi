@@ -1,35 +1,34 @@
 ---
 description: Page description 7
-icon: first-order
 ---
 
 # Page
 
-## Page
+# Heading 1
 
-## Heading 1
+Heading 1.1
+===========
 
-## Heading 1.1
+## Heading 2
 
-### Heading 2
+Heading 2
+---------
 
-### Heading 2
+### Heading 3
 
-#### Heading 3
+#### Heading 4
 
-**Heading 4**
+##### Heading 5
 
-**Heading 5**
+###### Heading 6
 
-**Heading 6**
-
-***
+---
 
 **Bold text**
 
-_Italic text_
+*Italic text*
 
-_**Bold and italic text**_
+***Bold and italic text***
 
 ~~Strikethrough text~~
 
@@ -46,45 +45,30 @@ def hello_world():
 
 A new sentence. This is a second one.
 
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/openapi_dap_clean.json' data-path='/job/{id}' data-method='get'>
-
+{% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/job/{id}" method="get" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/openapi_dap_clean.json' data-path='/object/url' data-method='post'>
-
+{% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/object/url" method="post" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/openapi_dap_clean.json' data-path='/query/{namespace}/table/{table}/data' data-method='post'>
-
+{% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/query/{namespace}/table/{table}/data" method="post" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/openapi_dap_clean.json' data-path='/query/{namespace}/table' data-method='get'>
-
+{% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/query/{namespace}/table" method="get" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/openapi_dap_clean.json' data-path='/query/{namespace}/table/{table}/schema' data-method='get'>
-
+{% swagger src=".gitbook/assets/openapi_dap_clean.json" path="/query/{namespace}/table/{table}/schema" method="get" %}
 [openapi_dap_clean.json](.gitbook/assets/openapi_dap_clean.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/petstore-v3.1.json' data-path='/pets' data-method='get'>
-
+{% swagger src=".gitbook/assets/petstore-v3.1.json" path="/pets" method="get" %}
 [petstore-v3.1.json](.gitbook/assets/petstore-v3.1.json)
+{% endswagger %}
 
-</div>
-
-<div data-gb-custom-block data-tag="swagger" data-src='.gitbook/assets/petstore-v3.1.json' data-path='/pets/{petId}' data-method='get'>
-
+{% swagger src=".gitbook/assets/petstore-v3.1.json" path="/pets/{petId}" method="get" %}
 [petstore-v3.1.json](.gitbook/assets/petstore-v3.1.json)
-
-</div>
-```
+{% endswagger %}

@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Page](<README (1).md>)
+* [README](<README (1).md>)
+* [Page](<README (1) (1).md>)
 * [Page 1](page-1.md)
 * [Page 2](page-2.md)
 * [HTML](<html (1).md>)

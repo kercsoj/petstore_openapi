@@ -1,5 +1,5 @@
 ---
-icon: face-awesome
+icon: heart
 ---
 
 # Canvas OpenAPI Example
