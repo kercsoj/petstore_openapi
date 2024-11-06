@@ -1,5 +1,14 @@
 ---
-description: Page description 7
+title: "My Page Title"
+description: "A brief description of my page."
+date: 2023-10-01
+author: "Author Name"
+tags: ["tag1", "tag2"]
+categories: ["category1"]
+layout: "default"
+permalink: "/my-page/"
+published: true
+draft: false
 icon: first-order
 ---
 
