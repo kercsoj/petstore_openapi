@@ -1,5 +1,5 @@
 ---
-icon: canadian-maple-leaf
+icon: face-awesome
 ---
 
 # Canvas OpenAPI Example
