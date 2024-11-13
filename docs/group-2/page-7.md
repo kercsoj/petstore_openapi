@@ -24,3 +24,5 @@ description: Page 7
 <div style="text-align: center;">
 Your centered paragraph text goes here.
 </div>
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"></figure>
