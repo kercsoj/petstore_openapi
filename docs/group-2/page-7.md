@@ -20,3 +20,7 @@ description: Page 7
   <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
   <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
 </table>
+
+<div style="text-align: center;">
+Your centered paragraph text goes here.
+</div>
