@@ -6,7 +6,9 @@ description: Page description 7
 
 ## Page
 
-{% @webframe/Webframe %}
+{% @webframe/Webframe fullWidth="true" %}
+
+
 
 
 
