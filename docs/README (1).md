@@ -2,15 +2,9 @@
 description: Page description 7
 ---
 
-# README
+# README test
 
 ## Page
-
-{% @webframe/Webframe fullWidth="true" %}
-
-
-
-
 
 ## Heading 1
 
