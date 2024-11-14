@@ -32,6 +32,8 @@ _**Bold and italic text**_
 
 ~~Strikethrough text~~
 
+{% @webframe/Webframe fullWidth="true" %}
+
 
 
 
