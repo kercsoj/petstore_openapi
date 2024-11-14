@@ -6,6 +6,10 @@ description: Page description 7
 
 ## Page
 
+{% @webframe/Webframe %}
+
+
+
 ## Heading 1
 
 ## Heading 1.1
@@ -33,8 +37,6 @@ _**Bold and italic text**_
 ~~Strikethrough text~~
 
 
-
-{% embed url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" %}
 
 
 
