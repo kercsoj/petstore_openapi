@@ -1,5 +1,14 @@
 ---
 description: Page 7
+layout:
+  title:
+    visible: false
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: true
 ---
 
 # Page 7
