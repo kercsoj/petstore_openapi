@@ -6,29 +6,17 @@ description: Page 7
 
 {% embed url="https://instructure.github.io/platform-ui" %}
 
-<div align="center">
+{% @webframe/webframe %}
 
-|   |
-|:-----:|
+|       |
+| :---: |
 | Price |
 
-</div>
+| Item         | Price | # In stock |
+| ------------ | ----- | ---------- |
+| Juicy Apples | 1.99  | 739        |
+| Bananas      | 1.89  | 6          |
 
-
-<table style="margin-left: auto; margin-right: auto;">
-  <tr><th>Item</th>           <th>Price</th>      <th># In stock</th></tr>
-  <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
-  <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
-</table>
-
-<div style="text-align: center;">
 Your centered paragraph text goes here.
-</div>
 
-<figure>
-  <figcaption>Caption text</figcaption>
-</figure>
-
-
-![The GitBook Logo1]()
-![The GitBook Logo]()
+![The GitBook Logo1]() ![The GitBook Logo]()
