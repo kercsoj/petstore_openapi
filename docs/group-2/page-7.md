@@ -8,6 +8,9 @@ description: Page 7
 
 {% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" %}
 
+
+{% @webframe/webframe url="https://instructure.github.io/platform-ui" %}
+
 |       |
 | :---: |
 | Price |
