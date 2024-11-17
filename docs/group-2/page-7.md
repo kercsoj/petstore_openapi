@@ -6,7 +6,7 @@ description: Page 7
 
 {% embed url="https://instructure.github.io/platform-ui" %}
 
-{% @webframe/webframe %}
+{% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" %}
 
 |       |
 | :---: |
