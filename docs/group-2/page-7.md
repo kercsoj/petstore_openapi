@@ -19,6 +19,8 @@ layout:
 
 {% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" aspectratio="1" %}
 
+{% @webframe/webframe url="erd.html" aspectratio="1" %}
+
 {% @webframe/webframe url="https://instructure.github.io/platform-ui" fullWidth="true" %}
 
 |       |
