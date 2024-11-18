@@ -1,5 +1,5 @@
 ---
-description: Page 7
+description: Test
 layout:
   title:
     visible: true
@@ -13,25 +13,10 @@ layout:
     visible: true
 ---
 
-# Page 7
+# Webframe test
 
-{% embed url="https://instructure.github.io/platform-ui" %}
+{% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" aspectratio="1" fullWidth="true" %}
 
-{% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" aspectratio="1" %}
-
-{% @webframe/webframe url="erd.html" aspectratio="1" %}
+{% @webframe/webframe url="https://jozsefkercso.instructure.com/graphiql" aspectratio="1.33" fullWidth="true" %}
 
 {% @webframe/webframe url="https://instructure.github.io/platform-ui" fullWidth="true" %}
-
-|       |
-| :---: |
-| Price |
-
-| Item         | Price | # In stock |
-| ------------ | ----- | ---------- |
-| Juicy Apples | 1.99  | 739        |
-| Bananas      | 1.89  | 6          |
-
-Your centered paragraph text goes here.
-
-![The GitBook Logo1]() ![The GitBook Logo]()
