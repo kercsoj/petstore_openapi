@@ -3,6 +3,8 @@ description: Page 7
 layout:
   title:
     visible: true
+  description:
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -15,9 +17,7 @@ layout:
 
 {% embed url="https://instructure.github.io/platform-ui" %}
 
-{% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" aspectRatio=1 %}
-
-{% @webframe/webframe url="group-2/erd.html" aspectRatio=1 %}
+{% @webframe/webframe url="https://data-access-platform-api.s3.amazonaws.com/erd/index.html" aspectratio="1" %}
 
 {% @webframe/webframe url="https://instructure.github.io/platform-ui" fullWidth="true" %}
 
