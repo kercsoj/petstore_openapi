@@ -1,6 +1,6 @@
 # Page 2
 
-EMPTY page
+PAGE
 
 This is a very long line.  This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.This is a very long line.
 
