@@ -1,4 +1,2 @@
 root: ./docs/
 
-redirects:
-  page-2: html.md
