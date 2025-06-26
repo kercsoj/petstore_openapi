@@ -1,2 +1,5 @@
 root: ./docs/
 
+redirects:
+  third: second.md
+
