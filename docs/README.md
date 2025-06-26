@@ -43,3 +43,11 @@ To start using the Petstore API:
 ## Support
 
 If you have questions or need assistance, please file an issue in the repository or contact the API support team.
+
+This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line. This is a long line.
+
+This is a short line.
+This is a short line.
+This is a short line.
+This is a short line.
+This is a short line.
