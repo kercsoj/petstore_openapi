@@ -1,5 +1,4 @@
 root: ./docs
 
 redirects:
-  third: third_modified.md
-
+  four: third_modified.md
