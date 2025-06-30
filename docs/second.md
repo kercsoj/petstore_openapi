@@ -50,4 +50,7 @@ X-API-KEY: your_api_key_here
 **Note**: This is example documentation only and does not reflect actual API endpoints.
 
 <a href="four">This link 1</a> should be redirected via redirect clause.
+
 <a href="four.md">This link 2</a> should be redirected via redirect clause.
+
+[This link 3](four) should be redirected via redirect clause.
