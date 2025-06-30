@@ -47,4 +47,7 @@ X-API-KEY: your_api_key_here
 * [OpenAPI Specification](https://swagger.io/specification/)
 * [REST API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
-> **Note**: This is example documentation only and does not reflect actual API endpoints.
+**Note**: This is example documentation only and does not reflect actual API endpoints.
+
+<a href="four">This link 1</a> should be redirected via redirect clause.
+<a href="four.md">This link 2</a> should be redirected via redirect clause.
