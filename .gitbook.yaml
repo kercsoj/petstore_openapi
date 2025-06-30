@@ -2,3 +2,4 @@ root: ./docs
 
 redirects:
   four: third_modified.md
+  four.md: third_modified.md
